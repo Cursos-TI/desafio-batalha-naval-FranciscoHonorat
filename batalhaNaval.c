@@ -9,8 +9,8 @@ int main() {
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     int tabuleiros[5][5];
 
-    for(int i; i < 5; i++){
-        for(int j; j < 5; j++){
+    for(int i = 0; i < 5; i++){
+        for(int j = 0; j < 5; j++){
             tabuleiros[i][j] = 0;
         }
     }
@@ -19,8 +19,8 @@ int main() {
     tabuleiros[2][2] = 1;
     tabuleiros[2][3] = 1;
     // Sugestão: Utilize `printf` para exibir as coordenadas de cada parte dos navios.
-    for(int i; i < 5; i++){
-        for(int j; j < 5; j++){
+    for(int i = 0; i < 5; i++){
+        for(int j = 0; j < 5; j++){
             printf("%d", tabuleiros[i][j]);
         }
     }
